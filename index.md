@@ -4,6 +4,8 @@
 
 layout: home
 ---
+<a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
 I am a husband, a father and a technologist. Nothing is more important than family. My wife is a deadset legend; funny, smart and drop-dead gorgeous. My son is an incredibly sharp, happy and chilled little dude.
 
 I am employed as the Director of Innovation for [atmail](https://www.atmail.com) – a global software company headquartered at Peregian Beach. Our white label email platform empowers Telcos and service providers and provides an exceptionally integrated, personalised and secure email experience for over 170 million users in more than 90 countries.
