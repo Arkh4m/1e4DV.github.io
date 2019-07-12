@@ -2,3 +2,12 @@
 ---
 
 @import "{{ site.theme }}";
+
+.site-header {
+  min-height:250px;
+  max-height: 380px;
+  background: url("/assets/viney-family.png") center center / cover no-repeat;
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
+  position: relative;
+}
