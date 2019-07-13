@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <!--Custom Navigation to load above site header image-->
+    <div class="wrapper">
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      {%- include header.html -%}
+    </div>
+
+
+    <main class="page-content" aria-label="Content">
+      <!-- Original location for call to header.html-->
+      <!--{%- include header.html -%}-->
+      <!--Hack to load banner image in original location-->
+      <div class="banner"></div>
+
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

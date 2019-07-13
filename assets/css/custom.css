@@ -1,4 +1,21 @@
+/* Temp Testing
 .site-header {
+  min-height:250px;
+  max-height: 380px;
+  background: url("/assets/viney-family.png") center center / cover no-repeat;
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
+  position: relative;
+}
+*/
+
+/* Override main.css */
+.site-header {
+  border-top: none;
+  border-bottom: none;
+}
+
+.banner {
   min-height:250px;
   max-height: 380px;
   background: url("/assets/viney-family.png") center center / cover no-repeat;
@@ -16,3 +33,15 @@
   float: none !important;
 }
 .site-title, .site-title:visited { color: #424242; }
+
+/*
+# Probably an unnecessary styleset. Should be able to reuse .wrapper from main.css
+# Placeholder to remind me what I was hacking about with
+.top-nav {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
+  margin-right: auto; margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+*/

@@ -4,7 +4,9 @@
 
 layout: home
 ---
+
 <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+<br />
 
 I am a husband, a father and a technologist. Nothing is more important than family. My wife is a deadset legend; funny, smart and drop-dead gorgeous. My son is an incredibly sharp, happy and chilled little dude.
 
