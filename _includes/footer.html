@@ -8,6 +8,7 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
+
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
@@ -16,18 +17,77 @@
               {{ site.title | escape }}
             {%- endif -%}
             </li>
+
+            <li class="footer-socials">
+            {% if site.twitter_username %}
+              <a href="https://twitter.com/{{ site.twitter_username }}">
+                <i class="fab fa-twitter"></i>
+              </a>
+            {% endif %}
+
+              &nbsp;
+
+            {% if site.instagram_username %}
+            <a href="https://instagram.com/{{ site.instagram_username }}">
+              <i class="fab fa-instagram"></i>
+            </a>
+            {% endif %}
+
+              &nbsp;
+
+            {% if site.linkedin_username %}
+              <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            {% endif %}
+
+              &nbsp;
+
+            {% if site.medium_username %}
+              <a href="https://medium.com/@{{ site.medium_username }}">
+                <i class="fab fa-medium"></i>
+              </a>
+            {% endif %}
+
+              &nbsp;
+
+            {% if site.github_username %}
+              <a href="https://github.com/{{ site.github_username }}">
+                <i class="fas fa-code-branch"></i>
+              </a>
+            {% endif %}
+
+              &nbsp;
+
+            {% if site.chess_username %}
+              <a href="https://www.chess.com/member/{{ site.chess_username }}">
+                <i class="fas fa-chess"></i>
+              </a>
+            {% endif %}
+            </li>
+
             {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li class="footer-email"><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
-        </ul>
+          </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
+    <!--<div class="footer-col footer-col-2">-->
+        <!-- Remove default social media links -->
+        <!-- {%- include social.html -%} -->
+    <!--</div>-->
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+      <!--<p>{{- site.description | escape -}}</p>-->
+      <p>Director, Innovation @<a href="https://www.atmail.com">atmail</a>. I love life; I have a kickass wife, an awesome son, an amazing job, a handful of hobbies & I live in paradise.</p>
+
+
+
+      <p class="pgp">
+        PGP (w): 6CBB DBAB DB48 C617 2F3D BDEE 40C7 A7F6 42F2 0B9F <br />
+        PGP (h): 1F7D EA13 862A 8BDC 12C1  AFDB 28B0 659A 3582 78CE 
+      </p>
+
       </div>
     </div>
 
