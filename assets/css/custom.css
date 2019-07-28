@@ -36,8 +36,8 @@
   font-size: 0.90em;
 }
 
-.footer-col-1 { width: -webkit-calc(35% - (30px / 2)); width: calc(35% - (30px / 2)); }
+.footer-col-1 { width: -webkit-calc(45% - (30px / 2)); width: calc(35% - (30px / 2)); }
 
 .footer-col-2 { width: -webkit-calc(0% - (30px / 2)); width: calc(0% - (30px / 2)); }
 
-.footer-col-3 { width: -webkit-calc(65% - (30px / 2)); width: calc(65% - (30px / 2)); }
+.footer-col-3 { width: -webkit-calc(55% - (30px / 2)); width: calc(65% - (30px / 2)); }
